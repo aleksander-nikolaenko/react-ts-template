@@ -1,0 +1,62 @@
+:root {
+  --accent-cl: #3653f2;
+  --hover-cl: #1a3fcb;
+
+  /*BACKGROUND COLORS*/
+  --primary-cl: #0a0e29;
+  --secondary-cl: #080b25;
+  --components-cl: #121533;
+
+  --light-primary-cl: #e9f0ff;
+  --light-secondary-cl: #dfdfdf;
+  --light-components-cl: #ffffff;
+  --light-cards-cl: #f6f8fc;
+
+  /* TEXT COLORS */
+  --primary-txt-cl: #f8f8f8;
+  --secondary-txt-cl: #9d9fb5;
+
+  --light-primary-txt-cl: #0a0e29;
+  --light-secondary-txt-cl: #b9b9b9;
+
+  /*BUTTONS*/
+  --copy-btn-cl: #5599ff;
+
+  /*OTHER COLORS*/
+  --disabled-cl: #464962;
+  --message-cl: #ffd84f;
+  --success-cl: #47c05d;
+  --success-cl-rgb: rgba(71, 192, 93, 0.3);
+  --error-cl: #ee4343;
+  --error-cl-rgb: rgba(238, 67, 67, 0.3);
+  --purple-cl: #9747ff;
+  --light-purple-cl: #7368f0;
+  --wrong-cl: #ff3b6a;
+  --right-cl: #2eac61;
+  --current-cl: #3b59ff;
+  --disabled-tag-cl: #142372;
+  --hover-shadow-cl: rgba(54, 83, 242, 0.73);
+
+  /* TRANSITION */
+  --transition: 250ms linear;
+
+  /*FONTS*/
+  --font-family: 'Inter', sans-serif;
+  --line-height: 1.3;
+
+  /*FONT SIZE*/
+  --title: 30px;
+  --subtitle: 20px;
+  --text-lg: 16px;
+  --text-md: 14px;
+  --text-sm: 12px;
+
+  /*FONT WEIGHT*/
+  --extrabold: 800;
+  --bold: 700;
+  --regular: 400;
+
+  --light-primary-shadow: 2px 2px 8px rgba(95, 117, 238, 0.11);
+  --shadow-blue: 1px 2px 6px rgba(54, 83, 242, 0.73);
+  --shadow-blue-small: 1px 2px 8px rgba(1, 37, 233, 0.54);
+}

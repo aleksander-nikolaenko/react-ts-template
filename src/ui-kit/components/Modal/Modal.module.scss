@@ -1,0 +1,55 @@
+.fadeIn {
+  animation: fade-in 0.3s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  to {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.backdropDark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(10, 14, 41, 0.7);
+  z-index: 100;
+}
+
+.modalDark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: var(--components-cl);
+  border-radius: 12px;
+
+  border: 1px solid var(--accent-cl);
+  box-shadow: 1px 6px 17px rgba(158, 170, 237, 0.13);
+}
+
+.closeModalBtnDark {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    top: 16px;
+    right: 16px;
+  }
+}
